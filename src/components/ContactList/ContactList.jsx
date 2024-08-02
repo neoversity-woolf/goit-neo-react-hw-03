@@ -3,7 +3,7 @@ import css from './ContactList.module.css';
 
 const ContactList = ({ contacts, onDeleteClick }) => {
   return (
-    <div className={css.wrapper}>
+    <div>
       <h2>Contact list</h2>
       <ul className={css.list}>
         {!!contacts.length &&

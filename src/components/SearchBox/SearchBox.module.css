@@ -7,6 +7,12 @@
   background-color: rgb(var(--cl-white));
   border: 0.05rem solid rgb(var(--cl-accent));
   border-radius: var(--radius-sm);
+  transition: var(--trns);
+  transition-property: box-shadow;
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+  }
 }
 
 .label {
